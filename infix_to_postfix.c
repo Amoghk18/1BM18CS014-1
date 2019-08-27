@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<ctype.h>
+#include<string.h>
 int pre(char ch);
 void push(char arr[100],int *top,char c);
 char pop(char arr[100],int *top);
