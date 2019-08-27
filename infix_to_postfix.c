@@ -8,7 +8,7 @@ void display(char arr[100],int *top);
 void main()
 {
   char a[100],b[100],x;
-  int i,j,k,n,top=-1;
+  int i,j,k,top=-1;
   printf("enter the expression");
   scanf("%s",&b);
   b[strlen(b)]='\0';
