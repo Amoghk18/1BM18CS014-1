@@ -8,11 +8,11 @@ void main()
 {
   char a[100],b[100],x;
   int i,j,k,n,top=-1;
-  printf("enter the length of the expression");
-  scanf("%d",&n);
-  for(i=0;i<n+1;i++)
+  printf("enter the expression");
+  scanf("%s",&b);
+  b[strlen(b)]='\0';
+  for(i=0;b[i]!='\0';i++)
   {
-     scanf("%c",&b[i]);
      if(isalpha(b[i]))
      printf("%c",b[i]);
      else if(b[i]=='(')
